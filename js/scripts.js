@@ -1,6 +1,6 @@
 let auth0 = null;
 const fetchAuthConfig = () => fetch("/js/auth_config.json");
-console.log('hoge')
+console.log('hage')
 
 const configureClient = async () => {
   const response = await fetchAuthConfig();
